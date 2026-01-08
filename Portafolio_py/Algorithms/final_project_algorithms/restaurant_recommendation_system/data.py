@@ -1,0 +1,66 @@
+# Data for the restaurant recommendation system
+restaurants = {
+    'Tacos': [
+        {'name': 'Los Cocuyos', 'description': 'Famous taqueria in Centro Histórico, known for a variety of meats.'},
+        {'name': 'Taqueria Orinoco', 'description': 'Popular for its al pastor, res, and chicharron tacos.'},
+        {'name': 'El Vilsito', 'description': 'A car mechanic shop by day, acclaimed taqueria by night.'},
+        {'name': 'Taquería El Greco', 'description': 'Known for its tacos árabes, a fusion of Mexican and Middle Eastern flavors.'},
+        {'name': 'Tacos Hola El Güero', 'description': 'Specializes in tacos de guisado (stewed meats and vegetables).'},
+    ],
+    'Mariscos': [
+        {'name': 'Contramar', 'description': 'Renowned for its fresh seafood and signature Pescado a la Talla.'},
+        {'name': 'Mi Compa Chava', 'description': 'Famous for its Sinaloa-style seafood, particularly its seafood tower.'},
+        {'name': 'Campomar', 'description': 'Offers Nayarit-style seafood with a blend of traditional and modern techniques.'},
+        {'name': 'La Docena Oyster Bar & Grill', 'description': 'A top-tier oyster bar specializing in fresh oysters and grilled seafood.'},
+        {'name': 'La Guerrerense', 'description': 'Brings traditional Ensenada-style seafood to Mexico City.'},
+    ],
+    'Japonesa': [
+        {'name': 'Tori Tori', 'description': 'Trendy and popular choice, known for the outstanding quality of its fish.'},
+        {'name': 'El Japonez', 'description': 'A nice, casual, and affordable option with a diverse menu.'},
+        {'name': 'Nagaoka', 'description': 'Highly recommended by Japanese residents, considered authentic and not overly expensive.'},
+        {'name': 'Ryoshi', 'description': 'A high-end Japanese dining experience known for incredibly fresh fish.'},
+        {'name': 'Kai Sushi Bar', 'description': 'Praised for its authentic and elevated sushi, offering an incredible omakase experience.'},
+    ],
+    'Café': [
+        {'name': 'Café Avellaneda', 'description': 'Highly regarded for its meticulous attention to detail and its use of coffees sourced from its sister business.'},
+        {'name': 'Qūentin Café', 'description': 'Celebrated for its excellent espresso and its practice of importing and roasting coffees from around the world.'},
+        {'name': 'Cardinal Casa de Café', 'description': 'Known for its high-quality coffee. Mexico\'s 2022 barista champion works here.'},
+        {'name': 'Almanegra Café', 'description': 'A growing chain recognized for its stylish design and delicious coffee offerings.'},
+        {'name': 'BUNA', 'description': 'Recognized for its quality espresso, homemade ice cream, and a strong commitment to sustainable, direct-trade practices.'},
+    ],
+    'Panaderías': [
+        {'name': 'Panadería Rosetta', 'description': 'Renowned for its innovative take on traditional pan dulce, especially the famous Guava Roll.'},
+        {'name': 'Pastelería Ideal', 'description': 'A historic institution established in 1927, a must-visit for authentic pan dulce.'},
+        {'name': 'Odette', 'description': 'Fuses European techniques with Mexican flavors, offering a selection of French pastries.'},
+        {'name': 'El Moro Churrería', 'description': 'Famous for its churros, El Moro also offers a delightful selection of pan dulce.'},
+        {'name': 'Ficelle Boulangerie Pâtissière', 'description': 'Specializes in classic French baking, offering delectable bread and viennoiserie pastries.'},
+    ],
+    'Italiana': [
+        {'name': 'Sartoria', 'description': 'Known for its handmade pasta and a menu that changes with the seasons.'},
+        {'name': 'Havre 77', 'description': 'A French brasserie with a raw bar, but also praised for its Italian dishes.'},
+        {'name': 'Macelleria Roma', 'description': 'An Italian butcher shop and restaurant, known for its high-quality meats and traditional dishes.'},
+        {'name': 'Restaurante Rosetta', 'description': 'Located in a beautiful old mansion, it offers a menu of Italian dishes with a Mexican influence.'},
+        {'name': 'María Ciento 38', 'description': 'A cozy restaurant with a Sicilian-inspired menu, located in a beautiful courtyard.'},
+    ],
+    'China': [
+        {'name': 'Yi Ping You / Yi Pin Ju', 'description': 'Highly recommended for authentic and traditional Chinese food, particularly known for its spicy Sichuan flavors.'},
+        {'name': 'Ka Won Seng', 'description': 'A traditional, accessible, and delicious option for Chinese food, offering a local Chinese dining experience.'},
+        {'name': 'Asian Bay', 'description': 'A more glamorous evening, Asian Bay offers true flavors of Asia with a focus on Chinese cuisine.'},
+        {'name': 'Hong King', 'description': 'This restaurant offers a Cantonese flavor from Hong Kong, served in a traditional Chinese way.'},
+        {'name': 'El Dragón', 'description': 'A well-known Chinese restaurant, particularly for its wood-fire cooked Peking Duck.'},
+    ],
+    'Francesa': [
+        {'name': 'Au Pied de Cochon', 'description': 'Well-known for its authentic traditional French cuisine and has been enchanting diners for over two decades.'},
+        {'name': 'Havre 77', 'description': 'A French brasserie known for its focus on seasonality and sustainability.'},
+        {'name': 'Café Milou', 'description': 'A charming petite brasserie in Condesa offering a small but delicious menu of classic French dishes.'},
+        {'name': 'Les Moustaches', 'description': 'A staple of upscale French dining in Mexico City since 1974.'},
+        {'name': 'Bagatelle', 'description': 'This restaurant offers French Mediterranean dining in Mexico City.'},
+    ],
+    'India': [
+        {'name': 'Dawat', 'description': 'Considered a favorite by some, offering North Indian cuisine.'},
+        {'name': 'Royal India', 'description': 'Located in Polanco, it\'s noted for serving Indian food akin to what one might find in the UK.'},
+        {'name': 'Loncheria Suvai', 'description': 'Offers a range of South Indian lunch dishes, including tiffins, pakodas, samosas, and biryanis.'},
+        {'name': 'Dhaka Biriyani', 'description': 'An Indian and Bangladeshi restaurant located in Nápoles, known for its spicy chicken biryani with raita.'},
+        {'name': 'Taj Mahal', 'description': 'A long-standing Indian restaurant in the Condesa neighborhood, known for its authentic Indian cuisine.'},
+    ],
+}
